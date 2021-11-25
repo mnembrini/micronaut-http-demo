@@ -1,6 +1,6 @@
 package com.example
 
-import io.micronaut.runtime.EmbeddedApplication
+
 import io.micronaut.test.extensions.spock.annotation.MicronautTest
 import jakarta.inject.Inject
 import org.reactivestreams.Publisher
