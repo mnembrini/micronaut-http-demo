@@ -3,7 +3,6 @@ package com.example;
 import io.micronaut.http.annotation.Controller;
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import org.reactivestreams.Publisher;
 import org.slf4j.Logger;
@@ -11,7 +10,7 @@ import org.slf4j.LoggerFactory;
 import reactor.core.publisher.Flux;
 
 @Controller
-public class UserController implements UserOperations{
+public class UserController implements UserOperations {
 
     private static final Logger log = LoggerFactory.getLogger(UserController.class);
 
