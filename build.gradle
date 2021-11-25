@@ -28,6 +28,12 @@ dependencies {
   runtimeOnly("ch.qos.logback:logback-classic")
   implementation("io.micronaut:micronaut-validation")
 
+  // for Flux
+  implementation("io.micronaut.reactor:micronaut-reactor")
+
+  // logging implementation
+  implementation 'ch.qos.logback:logback-classic:1.2.7'
+
 }
 
 

@@ -1,0 +1,2 @@
+### Get the current time
+GET http://localhost:8080/time
